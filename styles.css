@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+body {
+    background-color: #ffedb8;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes aparecer-up-down {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    font-family: reem kufi fun;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    color: #fff;
+    animation: aparecer-up-down 0.3s;
+}
+
+.links-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-element {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.nav-element:hover {
+    color: #e4d84f;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title-head {
+    margin: 0;
+    font-family: dm sans;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.title-main {
+    font-size: 60px;
+    font-family: reem kufi fun;
+    margin: 0;
+    color: #262119;
+    animation: aparecer-up-down 1s;
+}
+
+.title-bottom {
+    font-family: dm sans;
+    margin: 0;
+    font-size: 15px;
+}
+
+.buttons-container {
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 12px;
+}
+
+.button-buy {
+    font-family: dm sans;
+    font-size: 15px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    background-color: #da8960;
+    transition: background-color 0.4s;
+}
+.button-buy:hover {
+    background-color: #f58046;
+}
+
+.button-contact {
+    font-family: dm sans;
+    font-size: 15px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    background-color: #756a58;
+    transition: background-color 0.4s;
+}
+.button-contact:hover {
+    background-color: #8d7655;
+}
