@@ -83,6 +83,10 @@ body {
     animation: aparecer-up-down 1s;
 }
 
+a {
+    text-decoration: none;
+}
+
 .title-bottom {
     font-family: dm sans;
     margin: 0;
@@ -125,4 +129,16 @@ body {
 }
 .button-contact:hover {
     background-color: #8d7655;
+}
+
+@media (max-width: 520px) {
+    .navbar {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .links-nav {
+        justify-content: center;
+        text-align: center;
+    }
 }
