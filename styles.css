@@ -132,6 +132,9 @@ a {
 }
 
 @media (max-width: 520px) {
+    body {
+        background-color: #fff7de;
+    }
     .navbar {
         display: grid;
         justify-content: center;
