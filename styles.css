@@ -17,6 +17,17 @@ body {
     }
 }
 
+@keyframes aparecer-down-up {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .navbar {
     font-family: reem kufi fun;
     font-weight: 800;
@@ -61,6 +72,7 @@ body {
     font-family: dm sans;
     font-size: 18px;
     font-weight: 300;
+    animation: aparecer-up-down 0.3s;
 }
 
 .title-main {
@@ -75,6 +87,7 @@ body {
     font-family: dm sans;
     margin: 0;
     font-size: 15px;
+    animation: aparecer-down-up 1s;
 }
 
 .buttons-container {
@@ -93,6 +106,7 @@ body {
     border: none;
     background-color: #da8960;
     transition: background-color 0.4s;
+    animation: aparecer-down-up 0.4s;
 }
 .button-buy:hover {
     background-color: #f58046;
@@ -107,6 +121,7 @@ body {
     border: none;
     background-color: #756a58;
     transition: background-color 0.4s;
+    animation: aparecer-down-up 1.2s;
 }
 .button-contact:hover {
     background-color: #8d7655;
