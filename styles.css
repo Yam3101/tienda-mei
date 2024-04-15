@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Reem+Kufi+Fun:wght@400..700&display=swap');
 
 body {
-    background-color: #ffedb8;
+    background-color: #ffeebb;
     padding: 0;
     margin: 0;
 }
@@ -114,6 +114,7 @@ a {
 }
 .button-buy:hover {
     background-color: #f58046;
+    cursor: pointer;
 }
 
 .button-contact {
@@ -129,6 +130,7 @@ a {
 }
 .button-contact:hover {
     background-color: #8d7655;
+    cursor: pointer;
 }
 
 @media (max-width: 520px) {
@@ -144,4 +146,38 @@ a {
         justify-content: center;
         text-align: center;
     }
+}
+
+.container-ventas {
+    padding: 20px;
+}
+
+.container-products-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.title-venta-1 {
+    font-family: league spartan;
+    font-size: 27px;
+    animation: aparecer-down-up 0.5s;
+}
+
+.card-product {
+    background-color: #fff;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    animation: aparecer-down-up 1.2s;
+}
+
+.title-card {
+    font-family: dm sans;
+    font-weight: 400;
+}
+
+.text-product {
+    font-family: league spartan;
+    text-align: justify;
 }
