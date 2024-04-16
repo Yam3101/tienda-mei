@@ -153,14 +153,23 @@ a {
 }
 
 .container-products-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+@media (max-width: 820px) {
+    .container-products-cards {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
 }
 
 .title-venta-1 {
     font-family: league spartan;
     font-size: 27px;
     animation: aparecer-down-up 0.5s;
+    padding: 10px;
 }
 
 .card-product {
