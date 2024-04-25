@@ -133,60 +133,65 @@ a {
     cursor: pointer;
 }
 
-@media (max-width: 520px) {
-    body {
-        background-color: #fff7de;
-    }
-    .navbar {
-        display: grid;
-        justify-content: center;
-        text-align: center;
-    }
-    .links-nav {
-        justify-content: center;
-        text-align: center;
-    }
+.nav-button {
+    width: 30px;
 }
 
-.container-ventas {
-    padding: 20px;
+.mobile-nav {
+    display: none;
 }
 
-.container-products-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-}
-
-@media (max-width: 820px) {
-    .container-products-cards {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+@media (max-width: 720px) {
+    .container-links {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
     }
 }
 
-.title-venta-1 {
-    font-family: league spartan;
-    font-size: 27px;
-    animation: aparecer-down-up 0.5s;
-    padding: 10px;
+.container-ventas-cards {
+    display: flex;
+    place-content: center;
+    margin-top: 50px;
+    gap: 10px;
 }
 
-.card-product {
+.container-card-style-1 {
     background-color: #fff;
     padding: 20px;
+    border-radius: 25px;
+    width: 270px;
+    animation: aparecer-down-up 0.7s;
     display: grid;
     place-items: center;
-    border-radius: 12px;
-    animation: aparecer-down-up 1.2s;
+    transition: box-shadow 0.4s;
 }
 
-.title-card {
+@media (max-width: 920px) {
+    .container-ventas-cards {
+        display: flex;
+        align-content: center;
+    }
+}
+
+.container-card-style-1:hover {
+    box-shadow: #c9b169 0 0 15px;
+    cursor: pointer;
+}
+
+.link-ventas {
+    color: #000;
+}
+
+.title-venta-main {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
     font-family: dm sans;
-    font-weight: 400;
+    font-weight: 800;
 }
 
-.text-product {
-    font-family: league spartan;
-    text-align: justify;
+.img-ventas {
+    width: 100%;
 }
