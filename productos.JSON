@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Oreo",
+      "price": 3.00,
+      "image": "oreo.jpg"
+    },
+    {
+      "name": "Chokis",
+      "price": 2.75,
+      "image": "chokis.jpg"
+    },
+    {
+      "name": "Cremax",
+      "price": 2.25,
+      "image": "cremax.jpg"
+    },
+    {
+      "name": "Emperador",
+      "price": 2.00,
+      "image": "emperador.jpg"
+    }
+  ]
+  
