@@ -199,3 +199,27 @@ a {
 .img-ventas {
     width: 100%;
 }
+
+/* END THE STYLE OF INDEX */
+
+.search-bar {
+    display: flex; /* Arrange elements horizontally */
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the search bar */
+  }
+  
+  #search-input {
+    flex: 1; /* Allow the input field to grow */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
