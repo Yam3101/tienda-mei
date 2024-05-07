@@ -126,7 +126,8 @@ a {
     width: 350px;
     border-radius: 20px;
     border: none;
-    background-color: #756a58;
+    color: #fff;
+    background-color: #413623;
     transition: background-color 0.4s;
     animation: aparecer-down-up 1.2s;
 }
@@ -216,42 +217,49 @@ a {
 
 .button-section-cookies {
     font-family: pacifico;
-    font-size: larger;
+    font-size: x-large;
     border: none;
     width: 350px;
-    background-image: url(images/backGalleta.webp);
+    background-image: url(images/backGalleta.png);
     padding: 20px;
     border-radius: 40px;
+    animation: aparecer-down-up 0.6s;
 }
 
 .button-section-sabritas {
+    background-image: url(images/backSabritas.png);
     font-family: pacifico;
-    font-size: larger;
+    font-size: x-large;
     border: none;
     width: 350px;
     background-color: #fff;
     padding: 20px;
     border-radius: 40px;
+    animation: aparecer-down-up 1.2s;
 }
 
 .button-section-bebidas {
+    background-image: url(images/backBebidaa.png);
     font-family: pacifico;
-    font-size: larger;
+    font-size: x-large;
     border: none;
     width: 350px;
     background-color: #fff;
     padding: 20px;
     border-radius: 40px;
+    animation: aparecer-down-up 1.7s;
 }
 
 .button-section-desayunos {
+    background-image: url(images/backDesayunos.png);
     font-family: pacifico;
-    font-size: larger;
+    font-size: x-large;
     border: none;
     width: 350px;
     background-color: #fff;
     padding: 20px;
     border-radius: 40px;
+    animation: aparecer-down-up 2s;
 }
 
 .button-section-cookies:hover,
@@ -259,7 +267,7 @@ a {
 .button-section-bebidas:hover,
 .button-section-desayunos:hover
 {
-    box-shadow: #a59051 0px 0px 7px;
+    box-shadow: #a59051 0px 0px 8px;
     transition: box-shadow 0.3s;
 }
 
@@ -286,7 +294,7 @@ a {
     background-color: #fff;
     width: 85vw;
     border-radius: 10px;
-    gap: 10px;
+    gap: 20px;
     animation: aparecer-down-up 1s;
 }
 
