@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Pacifico&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
 
 body {
     background-color: #ffeebb;
@@ -195,6 +197,74 @@ a {
 
 /* END THE STYLE OF INDEX */
 
+/* STYLES FOR MENU SELECTION */
+
+.container-menu {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    padding: 20px;
+}
+
+.container-sections {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    gap: 6px;
+    padding: 10px;
+}
+
+.button-section-cookies {
+    font-family: pacifico;
+    font-size: larger;
+    border: none;
+    width: 350px;
+    background-image: url(images/backGalleta.svg);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.button-section-sabritas {
+    font-family: pacifico;
+    font-size: larger;
+    border: none;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.button-section-bebidas {
+    font-family: pacifico;
+    font-size: larger;
+    border: none;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.button-section-desayunos {
+    font-family: pacifico;
+    font-size: larger;
+    border: none;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.button-section-cookies:hover,
+.button-section-sabritas:hover,
+.button-section-bebidas:hover,
+.button-section-desayunos:hover
+{
+    box-shadow: #a59051 0px 0px 7px;
+    transition: box-shadow 0.3s;
+}
+
+/* END OF SECTIONS STYLES */
+
 .compras-title {
     font-family: dm sans;
     font-weight: 500;
@@ -270,3 +340,4 @@ a {
         gap: 5px;
     }
 }
+
