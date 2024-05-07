@@ -222,7 +222,7 @@ a {
     width: 350px;
     background-image: url(images/backGalleta.png);
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     animation: aparecer-down-up 0.6s;
 }
 
@@ -234,7 +234,7 @@ a {
     width: 350px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     animation: aparecer-down-up 1.2s;
 }
 
@@ -246,7 +246,7 @@ a {
     width: 350px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     animation: aparecer-down-up 1.7s;
 }
 
@@ -258,7 +258,7 @@ a {
     width: 350px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     animation: aparecer-down-up 2s;
 }
 
