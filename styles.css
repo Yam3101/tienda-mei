@@ -202,24 +202,55 @@ a {
 
 /* END THE STYLE OF INDEX */
 
-.search-bar {
-    display: flex; /* Arrange elements horizontally */
-    width: 300px; /* Adjust width as needed */
-    margin: 20px auto; /* Center the search bar */
-  }
-  
-  #search-input {
-    flex: 1; /* Allow the input field to grow */
+.compras-title {
+    font-family: dm sans;
+    font-weight: 500;
+    font-size: x-large;
     padding: 10px;
-    border: 1px solid #ccc;
+}
+
+.card-main-compras {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.card-venta {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    width: 85vw;
+    border-radius: 10px;
+}
+
+.image-container {
+    box-shadow: #bbb 0px 0px 3px;
     border-radius: 5px;
-  }
-  
-  button[type="submit"] {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: #fff;
+}
+
+.title-1 {
+    font-family: dm sans;
+}
+
+.container-choice-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.choice-emperador {
+    width: 25vw;
     border: none;
+    background-color: #fff695;
     border-radius: 5px;
-    cursor: pointer;
-  }
+}
+
+@media (max-width: 920px) {
+    .card-venta {
+        width: 80vw;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+    }
+}
