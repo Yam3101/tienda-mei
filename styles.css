@@ -22,7 +22,7 @@ body {
 @keyframes aparecer-down-up {
     from {
         opacity: 0;
-        transform: translateY(12px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
@@ -349,3 +349,52 @@ a {
     }
 }
 
+.pie-pagina {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.container-info-contact {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+.card-contact {
+    max-width: 90vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.title-contact {
+    font-family: reem kufi fun;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-text {
+    font-family: dm sans;
+    display: grid;
+    gap: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.WhatsApp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linkGit {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+}
