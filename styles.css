@@ -109,6 +109,8 @@ h3 {
 .title-main {
     font-size: 50px;
     font-family: reem kufi fun;
+    padding-right: 10px;
+    padding-left: 10px;
     animation: aparecer-up-down 1s;
 }
 
@@ -133,10 +135,12 @@ h3 {
     animation: aparecer-down-up 0.4s;
     width: 300px;
     cursor: pointer;
+    font-family: cantarell;
+    font-weight: 600;
 }
 
-#button-buy { background-color: #ebb489; }
-#button-contact { background-color: #baa378; }
+#button-buy { background-color: #e9a977; }
+#button-contact { background-color: #af986c; }
 
 .container-ventas-cards {
     display: flex;
