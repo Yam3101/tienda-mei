@@ -135,8 +135,8 @@ h3 {
     cursor: pointer;
 }
 
-#button-buy { background-color: #f7bb8e; }
-#button-contact { background-color: #cdb484; }
+#button-buy { background-color: #ffb074; }
+#button-contact { background-color: #ceab6a; }
 
 .container-ventas-cards {
     display: flex;
