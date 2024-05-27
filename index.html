@@ -7,7 +7,6 @@
     <title>Chipi-sonrisa</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="images/faviconStore.svg" type="image/x-icon">
-    <!-- <script src="functions.js"></script> -->
 </head>
 <body>
     <header class="navbar">
@@ -19,19 +18,20 @@
             <div class="container-links">
                 <a class="nav-element" href="contacto.html">CONTACTANOS</a>
             </div>
-            <div class="mobile-nav">
-                <img src="images/nav-button.svg" alt="nav-button" class="nav-button">
-            </div>
         </div>
     </header>
     <div class="main-container">
-        <h5 class="title-head">BIENVENIDO A</h5>
+        <h3 class="title-head">BIENVENIDO A</h3>
         <h1 class="title-main">CHIPI-SONRISA</h1>
-        <h4 class="title-bottom">¡Estómago lleno, corazón lleno!</h4>
+        <h5 class="title-bottom">¡Estómago lleno, corazón lleno!</h5>
     </div>
     <div class="buttons-container">
-        <button class="button-buy" onclick="window.location.href = '/comprar.html'"><b>COMPRAR AHORA</b></button>
-        <button class="button-contact" onclick="window.location.href = '/contacto.html'"><b>CONTACTANOS</b></button>
+        <a href="comprar.html">
+            <button class="button-main" id="button-buy">COMPRAR AHORA</button>
+        </a>
+        <a href="contacto.html">
+            <button class="button-main" id="button-contact">CONTACTANOS</button>
+        </a>
     </div>
 </body>
 </html>
