@@ -1,3 +1,5 @@
+![alt](images/CHIPI-SONRISA.svg)
+
 #**PROBLEMATICA**
 
 Debido a la problematica de tener que realizar esperas en filas largas y tediosas, y así mismo, no contar con el tiempo de estar tanto tiempo a la espera de nuestros alimentos cuando
