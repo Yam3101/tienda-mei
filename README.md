@@ -29,7 +29,7 @@ sin embargo el publico objetivo que estamos priorizando es el publico en disposi
 
 ¡Pagina en desarrollo aún! Esto quiere decir que quizas muchas de estas cosas como el IU/UX puede variar con el tiempo o removerse muchos cambios
 
-[text](tienda-mei.vercel.app)
+[¡CONOCE LA TIENDA AQUI!](tienda-mei.vercel.app)
 
 ----------
 
