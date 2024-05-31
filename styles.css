@@ -369,6 +369,7 @@ h3 {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
+    animation: aparecer-down-up 0.5s;
 }
 
 .title-contact {
