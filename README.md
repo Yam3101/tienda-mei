@@ -26,3 +26,11 @@ sin embargo el publico objetivo que estamos priorizando es el publico en disposi
 ![alt](images/final1.png)
 ![alt](images/final2.png)
 ![alt](images/final3.png)
+
+¡Pagina en desarrollo aún! Esto quiere decir que quizas muchas de estas cosas como el IU/UX puede variar con el tiempo o removerse muchos cambios
+
+[text](tienda-mei.vercel.app)
+
+----------
+
+By @Yam3101
