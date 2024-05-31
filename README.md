@@ -13,3 +13,7 @@ como tener una variedad para elegir. Todo ello con en fin de reducir los tiempos
 
 Con la ayuda de HTML, CSS, JS, Canva y Vercel para el desarrollo de esta hemos estado mejorando (y aún con el tiempo este progresará) la forma en la que manejamos nuestro codigo
 sin embargo el publico objetivo que estamos priorizando es el publico en dispositivos moviles
+
+**PROTOTIPO EN CANVA (DESKTOP)**
+![alt](images/demo1.png)
+![alt](images/demo2.png)
