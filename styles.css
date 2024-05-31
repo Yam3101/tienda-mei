@@ -220,6 +220,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     animation: aparecer-down-up 0.6s;
+    cursor: pointer;
 }
 
 .button-section-sabritas {
@@ -232,6 +233,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     animation: aparecer-down-up 1.2s;
+    cursor: pointer;
 }
 
 .button-section-bebidas {
@@ -244,6 +246,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     animation: aparecer-down-up 1.7s;
+    cursor: pointer;
 }
 
 .button-section-desayunos {
@@ -256,15 +259,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     animation: aparecer-down-up 2s;
-}
-
-.button-section-cookies:hover,
-.button-section-sabritas:hover,
-.button-section-bebidas:hover,
-.button-section-desayunos:hover
-{
-    box-shadow: #a59051 0px 0px 8px;
-    transition: box-shadow 0.3s;
+    cursor: pointer;
 }
 
 /* END OF SECTIONS STYLES */
@@ -350,6 +345,13 @@ h3 {
     background-color: #000;
     color: #fff;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-foot {
+    color: #fff;
 }
 
 .container-info-contact {
@@ -359,11 +361,14 @@ h3 {
 }
 
 .card-contact {
-    max-width: 90vw;
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 35px;
     margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
 }
 
 .title-contact {
@@ -392,5 +397,4 @@ p {
     display: flex;
     align-items: center;
     gap: 5px;
-    color: #000;
 }
